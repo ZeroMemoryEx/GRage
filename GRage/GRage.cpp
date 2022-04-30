@@ -101,7 +101,7 @@ void Entry()
     int selfx = 0;
     while (!isGameOpen())
     {
-        if (selfx++ <= 3500)
+        if (selfx++ == 3500)
             exit(-53);
         Sleep(8000);
     }
